@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #183fea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-app {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.city-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-btn {
+  background-color: #3498db;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #2185d0;
+}
+
+.city-date-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.city {
+  font-size: 24px;
+  color: #333;
+}
+
+.date {
+  background-color: #c3eaf4;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #333;
+}
+
+.temperature-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.temp {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.description i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #f39c12;
+}
+
+.description-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wind-info,
+.humidity-info,
+.visibility-info {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wind-info h3,
+.humidity-info h3,
+.visibility-info h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.wind-info p,
+.humidity-info p,
+.visibility-info p {
+  font-size: 16px;
+  color: #555;
+}
